@@ -8,6 +8,9 @@
 # Java class files
 *.class
 
+# Android NDK
+jniLibs/
+
 # Generated files
 bin/
 gen/
@@ -16,6 +19,9 @@ out/
 # Gradle files
 .gradle/
 build/
+
+# Catkin generated files
+gradle.properties
 
 # Local configuration file (sdk path, etc)
 local.properties
